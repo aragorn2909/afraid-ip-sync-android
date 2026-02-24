@@ -1,0 +1,38 @@
+# Gradle files
+.gradle/
+build/
+/app/build/
+/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log Files
+*.log
+
+# Android Studio files
+.idea/
+*.iml
+*.iws
+.navigation/
+
+# Built variants
+Captures/
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+
+# NDK
+obj/
+
+# Keystores and Security
+*.jks
+*.keystore
+google-services.json
